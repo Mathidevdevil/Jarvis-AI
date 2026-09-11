@@ -1,4 +1,4 @@
-﻿# ── Core UI & Async ────────────────────────────────────────────────────────
+# ── Core UI & Async ────────────────────────────────────────────────────────
 PyQt6
 fastapi
 uvicorn[standard]
@@ -48,7 +48,7 @@ win10toast; sys_platform == "win32"
 pywinauto; sys_platform == "win32"
 pywin32; sys_platform == "win32"
 uiautomation; sys_platform == "win32"
-winsdk; sys_platform == "win32"
+# winsdk; sys_platform == "win32"
 
 # ── GPU Acceleration (CUDA 12 Windows Wheels for faster-whisper/CTranslate2) ─
 nvidia-cublas-cu12; sys_platform == "win32"
